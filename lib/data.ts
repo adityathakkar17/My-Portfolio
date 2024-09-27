@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaAngular, FaAws, FaBootstrap, FaCss3, FaDatabase, FaDocker, FaGit, FaGitlab, FaHtml5, FaJenkins, FaJs, FaNodeJs, FaPython, FaReact, FaUbuntu } from "react-icons/fa";
+import { DiDjango, DiDotnet, DiFirebase, DiJava, DiJira, DiLaravel, DiMongodb, DiMysql, DiPhp, DiPostgresql, DiRedhat, DiRedis } from 'react-icons/di';
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
@@ -108,7 +109,7 @@ export const projectsData = [
     title: "Services Management System",
     description:
       "A one stop where customers can book any household services of all varieties and can get the service.",
-    tags: [{ name: "DOT NET", icon : null},
+    tags: [{ name: "DOT NET", icon : DiDotnet},
       { name: "DOT NET CORE", icon: FaNodeJs },
       { name: "MS SQL", icon: FaDatabase },
       { name: "HTML", icon: FaHtml5 },
@@ -128,45 +129,36 @@ export const projectsData = [
       { name: "HTML", icon: FaHtml5 },
       { name: "CSS", icon: FaCss3 },
       { name: "MongoDB", icon: FaJs },
-      { name: "Django"},
+      { name: "Django", icon: DiDjango},
     ],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
 
 export const skillsData = [
+  {name:"Dot NET",icon: DiDotnet},
   { name: "React", icon: FaReact },
   { name: "Node.js", icon: FaNodeJs },
   { name: "Angular", icon: FaAngular },
+  { name: "Django", icon: DiDjango },
+   { name: "Laravel", icon: DiLaravel },
   { name: "HTML", icon: FaHtml5 },
   { name: "CSS", icon: FaCss3 },
   { name: "JavaScript", icon: FaJs },
-  { name: "Git", icon: FaGit},
-  { name: "Jenkins", icon: FaJenkins },
+  { name: "Java", icon: DiJava },
   { name: "Python", icon: FaPython },
-  { name: "Database", icon: FaDatabase },
+  { name: "PHP", icon: DiPhp },
+  { name: "Jenkins", icon: FaJenkins },
   { name: "AWS", icon: FaAws },
-  { name: "AWS", icon: FaBootstrap },
+  // { name: "Bootstrap", icon: FaBootstrap },
   { name: "Docker", icon: FaDocker },
-  { name: "Gitlab", icon: FaGitlab },
+  // { name: "Gitlab", icon: FaGitlab },
   { name: "Ubuntu", icon: FaUbuntu },
-  
-
-  // "",
-  // "",
-  // "React",
-  // "Next.js",
-  // "Node.js",
-  // "Git",
-  // "Tailwind",
-  // "Prisma",
-  // "MongoDB",
-  // "Redux",
-  // "GraphQL",
-  // "Apollo",
-  // "Express",
-  // "PostgreSQL",
-  // "Python",
-  // "Django",
-  // "Framer Motion",
+  { name: "MongoDB", icon: DiMongodb },
+  { name: "MySQL", icon: DiMysql },
+  { name: "PostgreSQL", icon: DiPostgresql },
+  // { name: "Redhat", icon: DiRedhat },
+  //  { name: "Jira", icon: DiJira },
+  //  { name: "Firebase", icon: DiFirebase },
+  { name: "Git", icon: FaGit},
 ] as const;
