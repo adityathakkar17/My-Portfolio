@@ -30,7 +30,7 @@ export default function Skills() {
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>Technologies I frequently use</SectionHeading>
-      <ul className="grid grid-cols-5 justify-center gap-4 text-lg text-gray-800">
+      <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 justify-center gap-5 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
             className="relative group bg-white borderBlack rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
