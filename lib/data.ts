@@ -88,6 +88,8 @@ export const projectsData = [
       { name: "Node JS", icon: FaCss3 },
       { name: "Git", icon: FaGit},
     ],
+    githubURL:"https://github.com/adityathakkar17/Agile-Scrum-Board",
+    urlgit:"",
     imageUrl: corpcommentImg,
   },
   {
@@ -103,6 +105,7 @@ export const projectsData = [
       { name: "Python", icon: FaPython },
       { name: "DJango", icon: FaAngular },
     ],
+    githubURL:"https://github.com/adityathakkar17/Handwritten-Character-Recognition",
     imageUrl: rmtdevImg,
   },
   {
@@ -110,13 +113,14 @@ export const projectsData = [
     description:
       "A one stop where customers can book any household services of all varieties and can get the service.",
     tags: [{ name: "DOT NET", icon : DiDotnet},
-      { name: "DOT NET CORE", icon: FaNodeJs },
+      { name: "DOT NET CORE", icon: DiDotnet },
       { name: "MS SQL", icon: FaDatabase },
       { name: "HTML", icon: FaHtml5 },
       { name: "CSS", icon: FaCss3 },
       { name: "JavaScript", icon: FaJs },
       { name: "Git", icon: FaGit},
     ],
+    githubURL:"https://github.com/adityathakkar17/Services_Booking_System",
     imageUrl: wordanalyticsImg,
   },
   {
@@ -131,6 +135,7 @@ export const projectsData = [
       { name: "MongoDB", icon: FaJs },
       { name: "Django", icon: DiDjango},
     ],
+    githubURL:"https://github.com/adityathakkar17/Gold-Loan-Finance-Management-System",
     imageUrl: wordanalyticsImg,
   },
 ] as const;

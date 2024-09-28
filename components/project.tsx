@@ -4,6 +4,9 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Link from "next/link";
+import { DiGithub } from "react-icons/di";
+import { BsGithub } from "react-icons/bs";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -11,6 +14,7 @@ export default function Project({
   title,
   description,
   tags,
+  githubURL,
   imageUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
@@ -47,6 +51,9 @@ export default function Project({
               </li>
             ))}
           </ul>
+            <a  href={githubURL} >
+          <BsGithub size="24" className="mt-4 group-hover:translate-x-1 transition" />
+          </a>
         </div>
 
         <Image

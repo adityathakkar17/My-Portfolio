@@ -56,25 +56,29 @@ export default function Intro() {
       </div>
 
       <div
-        className="mb-6 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-6 mt-4 px-4 "
         // initial={{ opacity: 0, y: 100 }}
         // animate={{ opacity: 1, y: 0 }}
       >
-        <p>
-        <span className="font-bold">Aditya Thakkar</span> 
-        </p>
-        <p>{" "}
-        <span className="italic text-gray-700">Software Engineer </span>  
-        </p>
-        <p>{" "}
-        <span className="italic text-gray-700">Masters in Computer Science @CSULB </span>  
-        </p>
+        <div className="text-2xl font-medium !leading-[1.5] sm:text-4xl">
+          <p>
+          <span className="font-bold">Aditya Thakkar</span> 
+          </p>
+        </div>
+        <div className="text-lg font-medium !leading-[1.5] sm:text-2xl">
+          <p>{" "}
+          <span className="italic text-gray-850">Software Engineer </span>  
+          </p>
+          <p>{" "}
+          <span className="italic text-gray-850">Masters in Computer Science @CSULB </span>  
+          </p>
+        </div>
       </div>
-            <div className="mb-10 mt-2 px-4 text-lg font-medium !leading-[1.5] sm:text-2xl">
+      <div className="mb-10 mt-2 px-4 text-lg font-medium !leading-[1.5] sm:text-2xl">
           <span className="text-md">
-        <span className="font-bold">I am a full-stack developer</span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
-        building robust <span className="italic">sites & apps</span>.
+          <span className="font-bold">I am a full-stack developer</span> with{" "}
+          <span className="font-bold">2 years</span> of experience. I enjoy
+          building robust <span className="italic">sites & apps</span>.
          {/* My focus is{" "} <span className="underline">React (Next.js)</span>. */}
         </span>
       </div>
