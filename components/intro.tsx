@@ -77,8 +77,8 @@ export default function Intro() {
       <div className="mb-10 mt-2 px-4 text-lg font-medium !leading-[1.5] sm:text-2xl">
           <span className="text-md">
           <span className="font-bold">I am a full-stack developer</span> with{" "}
-          <span className="font-bold">2 years</span> of experience. I enjoy
-          building robust <span className="italic">sites & apps</span>.
+          <span className="font-bold">nearly 2 years</span> of experience with a flair of
+          architecting robust <span className="italic">platform sites & applications</span>.
          {/* My focus is{" "} <span className="underline">React (Next.js)</span>. */}
         </span>
       </div>
@@ -100,7 +100,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/30"
           href="/AdityaThakkar_CV.pdf"
           download
         >

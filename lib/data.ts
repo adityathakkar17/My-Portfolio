@@ -32,48 +32,46 @@ export const links = [
 
 export const professionalExperience  = [
   {
-    title: "Software Engineer - GlobalLogic",
-    location: "Ahmedabad, IN",
+    date: "Aug 2024 - Now (Expected - May 2026)",
+    title: "Master of Science, Computer Science",
+    location: "California State University, Long Beach, US",
+    locationURL:"https://www.csulb.edu/",
+    description: "Analysis of Algorithms, Advanced Software Engineering, Artifical Intelligence, Machine Vision",
+    icon: React.createElement(LuGraduationCap),
+  },
+  {
+    title: "Software Engineer",
+    location: "GlobalLogic - Ahmedabad, IN",
+    locationURL:"https://www.globallogic.com/in",
     description:
-      "",
-    icon: React.createElement(FaReact),
+      "Worked for client - HHAExchange. Coordinated with the Customer Representatives and Business Analyst to achieve best UI/UX and simultaneously resolved technical defects improving platform's stability. ",
+    icon: React.createElement(CgWorkAlt),
     date: "Feb 2024 - Jul 2024",
   },
   {
-    title: "Associate Software Engineer - HHAExchange",
-    location: "Ahmedabad, IN",
-    description:
-      "",
+    title: "Associate Software Engineer",
+    location: "HHAExchange - Ahmedabad, IN",
+    locationURL:"https://www.hhaexchange.com",
+    description:"Worked on Healthcare management system on different modules like Admin, Patient, Caregiver, Healthcare Provider. Researched and developed serverless workflows to implement business requirements. ",
     icon: React.createElement(CgWorkAlt),
     date: "Dec 2022 - Feb 2024",
   },
   {
-    title: "Web Developer Intern - Lealmart",
-    location: "Remote",
-    description:
-      "",
-    icon: React.createElement(LuGraduationCap),
+    title: "Web Developer Intern",
+    location: "Lealmart - India",
+    locationURL:"",
+    description:"Worked on expanding B2B platform and integrating B2C(eCommerce) features like Cart, WishList, Customer Account Management.",
+    icon: React.createElement(CgWorkAlt),
     date: "May 2021 - Jun 2021",
-  }
-  ,
-] as const;
-
-export const educationExperience = [
-  {
-    date: "Aug 2024 - May 2026",
-    title: "Master of Science, Computer Science",
-    location: "California State University, Long Beach, US",
-    description: "Analysis of Algorithms, Software Engineering, Artifical Intelligence, Machine Vision",
-    icon: React.createElement(LuGraduationCap),
   },
   {
     date: "Jul 2019 - May 2023",
     title: "Bachelor of Tech., Computer Engg.",
     location: "Dharmsinh Desai University, Nadiad, IN",
-    description: "Data Structures and Algorithms, Machine Learning, Computer System Architecture, Operating Systems ",
+    locationURL:"https://www.ddu.ac.in/",
+    description: "Data Structures and Algorithms, Software Engineering, Machine Learning, Computer System Architecture, Operating Systems ",
     icon: React.createElement(LuGraduationCap),
   },
-  // Add more education experiences here...
 ] as const;
 
 export const projectsData = [
