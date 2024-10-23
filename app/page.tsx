@@ -30,9 +30,15 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center px-4">
-      {renderSection()}
+            <Intro/>
+      <SectionDivider/>
+      <About/>
+      <Projects/>
+      <Skills/>
+      <Experience/>
+      {/* {renderSection()}
 
-      {activeSection === 'Home'? <SectionDivider/>: ''}
+      {activeSection === 'Home'? <SectionDivider/>: ''} */}
     </main>
   );
 }
